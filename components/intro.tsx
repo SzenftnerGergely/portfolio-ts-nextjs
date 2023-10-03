@@ -59,20 +59,46 @@ export default function Intro() {
                 <span className="underline">React (Next.js)</span>
             </motion.p>
             
-            <div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'>
-                <Link href='#contact' className='flex items-center bg-gray-900 text-white px-7 py-3 gap-2 rounded-full'>
-                    Contact me here<BsArrowRight/>
+            <motion.div 
+                className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
+                initial={{opacity: 0, y: 100}}
+                animate={{opacity: 1, y: 0}}
+                transition={{
+                    delay: 0.1,
+                }}
+            >
+                <Link 
+                    href='#contact' 
+                    className='flex items-center bg-gray-900 text-white 
+                    px-7 py-3 gap-2 rounded-full outline-none hover:scale-110 
+                    hover:bg-gray-950 active:scale-105 transition group'
+                    >
+                    Contact me here<BsArrowRight 
+                    className='opacity-70 group-hover:translate-x-1 transition'
+                    />
                 </Link>
-                <a className='flex items-center bg-white px-7 py-3 gap-2 rounded-full'>
-                    Download CV <HiDownload/>
+                <a className='group flex items-center bg-white px-7 py-3 
+                    gap-2 rounded-full  outline-none hover:scale-110 
+                    active:scale-105 transition cursor-pointer border 
+                    border-black/10' href='/CV.pdf' download={true}>
+                    Download CV <HiDownload
+                    className='opacity-60 group-hover:translate-y-1 transition '
+                    />
                 </a>
-                <a className='flex items-center bg-white text-gray-700 p-4 gap-2 rounded-full'>
+                <a className='flex items-center bg-white text-gray-700 
+                    p-4 gap-2 rounded-full hover:scale-110 active:scale-105 
+                    transition cursor-pointer border hover:text-gray-950
+                    border-black/10' href='https://linkedin.com' target='_blank'>
                     <BsLinkedin/>
                 </a>
-                <a className='flex items-center bg-white text-gray-700 text-[1.35rem] p-4 gap-2 rounded-full'>
+                <a className='flex items-center bg-white text-gray-700 
+                    text-[1.35rem] p-4 gap-2 rounded-full hover:scale-[1.15] 
+                    active:scale-105 transition cursor-pointer border 
+                    border-black/10 hover:text-gray-950' 
+                    href='https://github.com' target='_blank'>
                     <FaGithubSquare/>
                 </a>
-            </div>
+            </motion.div>
         </section>
     )
 }
