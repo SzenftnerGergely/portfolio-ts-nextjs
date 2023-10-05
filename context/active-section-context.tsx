@@ -2,8 +2,6 @@
 
 import React, { useState, createContext, useContext } from 'react'
 import { links } from '@/lib/data'
-import { link } from 'fs'
-import { type } from 'os'
 
 type SectionName = typeof links[number]["name"]
 
