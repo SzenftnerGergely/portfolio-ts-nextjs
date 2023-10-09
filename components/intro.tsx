@@ -88,7 +88,8 @@ export default function Intro() {
                 <a className='group flex items-center bg-white px-7 py-3 
                     gap-2 rounded-full  outline-none hover:scale-110 
                     active:scale-105 transition cursor-pointer border 
-                    border-black/10' href='/CV.pdf' download={true}>
+                    border-black/10 dark:bg-white/10' 
+                    href='/CV.pdf' download={true}>
                     Download CV <HiDownload
                     className='opacity-60 group-hover:translate-y-1 transition '
                     />
@@ -96,14 +97,16 @@ export default function Intro() {
                 <a className='flex items-center bg-white text-gray-700 
                     p-4 gap-2 rounded-full hover:scale-110 active:scale-105 
                     transition cursor-pointer border hover:text-gray-950
-                    border-black/10' href='https://linkedin.com' target='_blank'>
+                    border-black/10 dark:bg-white/10 dark:text-white/60' 
+                    href='https://linkedin.com' target='_blank'>
                     <BsLinkedin/>
                 </a>
                 <a className='flex items-center bg-white text-gray-700 
                     text-[1.35rem] p-4 gap-2 rounded-full hover:scale-[1.15] 
                     active:scale-105 transition cursor-pointer border 
-                    border-black/10 hover:text-gray-950' 
-                    href='https://github.com' target='_blank'>
+                    border-black/10 hover:text-gray-950 dark:bg-white/10
+                    dark:text-white/60' 
+                    href='https://github.com' target='_blank '>
                     <FaGithubSquare/>
                 </a>
             </motion.div>
