@@ -26,7 +26,7 @@ export default function Intro() {
                         }}
                     >
                         <Image
-                            src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100'
+                            src='/profile-img.jpg'
                             alt='Ricardo portrait'
                             width="192"
                             height="192"
@@ -56,10 +56,9 @@ export default function Intro() {
                 initial={{opacity: 0, y: 100}}
                 animate={{opacity: 1, y: 0}}
             >
-                <span className="font-bold">Hello, I'm Ricardo.</span> I'm a{" "}
-                <span className="font-bold">full-stack developer</span> with{" "}
-                <span className="font-bold">8 years</span> of experience. I enjoy
-                building <span className="italic">sites & apps</span>. My focus is{" "}
+                Hello, <span className="font-bold">I'm Gergely.</span> I'm a junior{" "}
+                <span className="font-bold">frontend developer.</span>{" "}
+                I enjoy building <span className="italic">sites & apps</span>. My focus is{" "}
                 <span className="underline">React (Next.js)</span>
             </motion.h1>
             
@@ -106,7 +105,7 @@ export default function Intro() {
                     active:scale-105 transition cursor-pointer border 
                     border-black/10 hover:text-gray-950 dark:bg-white/10
                     dark:text-white/60' 
-                    href='https://github.com' target='_blank '>
+                    href='https://github.com/SzenftnerGergely' target='_blank '>
                     <FaGithubSquare/>
                 </a>
             </motion.div>
