@@ -97,7 +97,7 @@ export default function Intro() {
                     p-4 gap-2 rounded-full hover:scale-110 active:scale-105 
                     transition cursor-pointer border hover:text-gray-950
                     border-black/10 dark:bg-white/10 dark:text-white/60' 
-                    href='https://linkedin.com' target='_blank'>
+                    href='https://www.linkedin.com/in/gergely-szenftner-b6660a299/' target='_blank'>
                     <BsLinkedin/>
                 </a>
                 <a className='flex items-center bg-white text-gray-700 

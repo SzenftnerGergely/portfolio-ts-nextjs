@@ -24,7 +24,7 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Studies",
     hash: "#experience",
   },
   {
@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Újratervezés Program alapozó képzés",
+    location: "Nemzeti Szakképzési és Felnőttképzési Hivatal - Online Course",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "In the course, I acquired fundamental digital skills and gained insight into programming by building a website. I developed practical expertise in using Windows, understanding networks, and mastering development methodologies like Git. Additionally, I acquired the basics of HTML, CSS, and Javascript for web development.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "The Frontend Developer Career Path",
+    location: "Scrimba - Online Course",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "In Scrimba's 'Frontend Developer Career Path,' I mastered key skills in HTML, CSS, and JavaScript, delving into advanced areas like responsive design and popular framework such as React.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Junior Frontend Developer Course",
+    location: "CodeCool - Online Course",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "In the Codecool Frontend Developer training, I began with HTML and CSS, mastering the basics and moving on to building responsive websites. I then delved into JavaScript, Node.js for backend development, and concluded by learning the React.js framework, ultimately preparing me for a role as a Junior Frontend Developer through hands-on application projects.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023",
   },
 ] as const;
 
@@ -94,14 +94,9 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "Vite",
   "Framer Motion",
+  "DaisyUI"
 ] as const;
